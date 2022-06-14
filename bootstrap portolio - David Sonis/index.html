@@ -1,196 +1,224 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+      $('.options').carousel({
+        interval: 20
+      })
+    </script>
+    <script src="https://www.markuptag.com/bootstrap/5/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>David's Portfolio</title>
+  </head>
 
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <title>David's Portfolio</title>
-</head>
-
-<body style="background-color: SteelBlue">
-
-  <!-- into header -->
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-6">
-        <div class="container my-5">
-          <u><h1 class="display-1 mb-3">David Sonis</h1></u>
-          <p class="lead">
-            Add brief description of who you are here
-          </p>
-          <a href="mailto:523dsonis@frhsd.com" type="button" class="btn btn-outline-primary">523dsonis@frhsd.com</a>
+  <body style="background-color: lightslategray;">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about-me.html">About me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          
+          </ul>
         </div>
       </div>
-
-      <div class="col-lg-6">
-
-
-
-
+    </nav>
+    <!-- into header -->
+  
+    <div class="jumbotron jumbotron-fluid ppadding">
+      <div class="container">
+        <h1 class="display-4 ">Portfolio</h1>
+        <p class="lead">Learn about my web development Experience</p>
       </div>
-      <!--Navigation Bar-->
+    </div>
+    <!-- Work experience-->
+    <div class="container mt-5">
       <div class="row">
-        <ul class="nav nav-pills">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about-me.html">about me</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact me</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <!-- Work experience-->
-  <div class="container mt-5">
-    <div class="row">
-      <div class="col">
-        <h3 class="mb-3">Work Experience</h3>
-        <!-- Job#1-->
-        <div class="card mb-3 ">
-          <div class="card-body">
-            <div class="mx3" >
-              <h4>MRHS</h4>
-              <div><strong>2019-current</strong></div>
-              Web Design CTE Program
+        <div class="col">
+          <h3 class="mb-3">Work Experience</h3>
+          <!-- Job#1-->
+          <div class="card mb-3">
+            <div class="card-body">
+              <div class="mx3">
+                <h4>MRHS</h4>
+                <div><strong>2019-current</strong></div>
+                Web Design CTE Program
+              </div>
+              <ul class="list-group list-group-flush mt-2">
+                <li class="list-group-item">Honors Web Design 1</li>
+                <li class="list-group-item">Advanced Honors Web Design</li>
+                <li class="list-group-item">NJIT Web Design</li>
+              </ul>
             </div>
-            <ul class="list-group list-group-flush mt-2">
-              <li class="list-group-item">Honors Web Design 1</li>
-              <li class="list-group-item">Advanced Honors Web Design</li>
-              <li class="list-group-item">NJIT Web Design</li>
-            </ul>
           </div>
-        </div>
 
-        <!-- Job#2-->
-        <div class="card mb-3 ">
-          <div class="card-body">
-            <div class="mx3">
-              <h4>Hobbies</h4>
-              <div><strong>include:</strong></div>
-
-            </div>
-            <ul class="list-group list-group-flush mt-2">
-              <li class="list-group-item">biking </li>
-              <li class="list-group-item">guitar </li>
-              <li class="list-group-item">video games </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <h3 class="mb-3">skills</h3>
-        <!--skill#1-->
-        <div class="card mb-3 ">
-          <div class="card-body">
-            <div class="mx-3">
-              <h4>web design</h4>
-              <ul>
-                <li>HTMl</li>
-                <li>CSS</li>
-                <li>bootstrap</li>
-                <li>javascript</li>
+          <!-- Job#2-->
+          <div class="card mb-3">
+            <div class="card-body">
+              <div class="mx3">
+                <h4>Hobbies</h4>
+                <div><strong>include:</strong></div>
+              </div>
+              <ul class="list-group list-group-flush mt-2">
+                <li class="list-group-item">biking</li>
+                <li class="list-group-item">guitar</li>
+                <li class="list-group-item">video games</li>
               </ul>
             </div>
           </div>
         </div>
-        <!--skill = 2-->
-        <div class="card mb-3 ">
-          <div class="card-body">
-            <div class="mx-3">
-              <h4>web design</h4>
-              <ul>
-                <li>site design</li>
-                <li>Wire frames</li>
-                <li>building client relationships</li>
-                <li>Project managment</li>
-              </ul>
+        <div class="col">
+          <h3 class="mb-3">skills</h3>
+          <!--skill#1-->
+          <div class="card mb-3">
+            <div class="card-body">
+              <div class="mx-3">
+                <h4>web design</h4>
+                <ul>
+                  <li>HTMl</li>
+                  <li>CSS</li>
+                  <li>bootstrap</li>
+                  <li>javascript</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!--skill = 2-->
+          <div class="card mb-3">
+            <div class="card-body">
+              <div class="mx-3">
+                <h4>web design</h4>
+                <ul>
+                  <li>site design</li>
+                  <li>Wire frames</li>
+                  <li>building client relationships</li>
+                  <li>Project managment</li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
+    <div class="container margin">
+      <h3>Recent Projects</h3>
+      <div class="row">
+        <!--First Project-->
+        <div class="col-md-3 text-center">
+          <div class="card border border-5">
+            <div class="card-body mb-3">
+              <img
+                src="https://i.imgur.com/VRe6eqj.png"
+                width="100px"
+                height="75.34px"
+                alt="project screenshot"
+                class="card-img-top"
+              />
+              <h5 class="card-title">Katies Komets</h5>
+              <p class="card-text">First client based site</p>
+              <a
+                href="https://davidsonis.github.io/Katie-s-Komets/"
+                class="btn btn-primary"
+                >visit project</a
+              >
+            </div>
+          </div>
+        </div>
+        <!--Second Project-->
+        <div class="col-md-3 text-center">
+          <div class="card border border-5">
+            <div class="card-body mb-3">
+              <img
+                src="https://i.imgur.com/yL7pFlL.png"
+                width="100px"
+                height="75.34px"
+                alt="project screenshot"
+                class="card-img-top"
+              />
+              <h5 class="card-title">Little Bird Toys</h5>
+              <p class="card-text">Favorite site</p>
+              <a href="https://fj0211.github.io/little-bird-toys-final/" class="btn btn-primary"
+                >Visit Project</a
+              >
+            </div>
+          </div>
+        </div>
 
-  <div class="container margin" >
-    <h3>Recent Projects</h3>
-    <div class="row">
-      <!--First Project-->
-      <div class="col-md-3 text-center">
-        <div class="card border border-5 ">
-          <div class="card-body mb-3">
-            <img src="img\aboutmepictureproject.jpg" WIDTH="100px" height="75.34px" alt="project screenshot" class="card-img-top">
-            <h5 class="card-title">About Me</h5>
-            <p class="card-text">Introduction to web Design</p>
-            <a href="https://zev8c.csb.app/" class="btn btn-primary">Visit Project</a>
+        <!--Third Project-->
+        <div class="col-md-3 text-center">
+          <div class="card border border-5">
+            <div class="card-body mb-3">
+              <img
+                src="https://i.imgur.com/JRU3i8J.png"
+                width="100px"
+                height="75.34px"
+                alt="project screenshot"
+                class="card-img-top"
+              />
+              <h5 class="card-title">Tip Calculator</h5>
+              <p class="card-text">Functioning Js</p>
+              <a
+                href="https://davidsonis.github.io/tip-calculator/"
+                class="btn btn-primary"
+                >Visit Project</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!--Fourth Project-->
+        <div class="col-md-3 text-center">
+          <div class="card border border-5">
+            <div class="card-body mb-3">
+              <img
+                src="https://i.imgur.com/ZqTXhbC.png"
+                width="100px"
+                height="75.34px"
+                alt="project screenshot"
+                class="card-img-top"
+              />
+              <h5 class="card-title">State facts</h5>
+              <p class="card-text">JS state trivia</p>
+              <a href="https://davidsonis.github.io/State-facts/" class="btn btn-primary">visit project</a>
+            </div>
           </div>
         </div>
       </div>
-      <!--Second Project-->
-      <div class="col-md-3 text-center" >
-        <div class="card border border-5 ">
-          <div class="card-body mb-3">
-            <img src="img\howtowhelliepicture.jpg" WIDTH="100px" height="75.34px" alt="project screenshot" class="card-img-top">
-            <h5 class="card-title">How to Wheelie</h5>
-            <p class="card-text">Using Basic Skills</p>
-            <a href="https://6j1bp.csb.app/" class="btn btn-primary">Visit Project</a>
-          </div>
-
-        </div>
-      </div>
-
-      <!--Third Project-->
-      <div class="col-md-3 text-center">
-        <div class="card border border-5 ">
-          <div class="card-body mb-3">
-            <img src="https://i.imgur.com/SuMFEMr.png" WIDTH="100px" height="75.34px"alt="project screenshot" class="card-img-top">
-            <h5 class="card-title">Spooky Ghost</h5>
-            <p class="card-text">first JS animation</p>
-            <a href="file:///C:/Users/523dsonis/OneDrive%20-%20FRHSD/Desktop/spooky%20Ghost/index.html" class="btn btn-primary">Visit Project</a>
-          </div>
-        </div>
-      </div>
-
-      <!--Fourth Project-->
-      <div class="col-md-3 text-center">
-        <div class="card border border-5">
-          <div class="card-body mb-3">
-            <img src="https://i.imgur.com/WbGMFTi.png" WIDTH="100px" height="75.34px" alt="project screenshot" class="card-img-top">
-            <h5 class="card-title">Favorite Foods</h5>
-            <p class="card-text">First animated Carousel</p>
-            <a href="#" class="btn btn-primary">file:///C:/Users/523dsonis/OneDrive%20-%20FRHSD/web%20design/food%20project/index.html</a>
-
-          </div>
-        </div>
-      </div>
-
+      <a href="portfolio.html" class="btn btn-primary col-md-12">All projects</a>
     </div>
   </div>
-  <footer class="py-4 bg-dark text-white-50">
-    <div class="container text-center">
-      <small> Copyright &copy; your website</small>
-    </div>
-  </footer>
+    <footer class="py-4 bg-dark text-white-50">
+      <div class="container text-center">
+        <small> Copyright &copy; your website</small>
+      </div>
+    </footer>
 
-
-
-
-  <!-- Option 1: Bootstrap Bundle with Popper -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
-
-
-</body>
-
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
