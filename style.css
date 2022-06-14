@@ -1,9 +1,12 @@
-a {
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+  background-color: rgb(0, 38, 255)  !important;
+}
+.nav-link {
 
 
 
 
-	 background-image: linear-gradient(to right, white, red 50%, white 50%);
+	 background-image: linear-gradient(to right, white, rgb(0, 38, 255) 50%, white 50%);
 
 
 	 background-size: 200% 100%;
@@ -54,6 +57,8 @@ a:hover::before {
 
 
 }
+
+
 
 
 
